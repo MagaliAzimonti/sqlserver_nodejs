@@ -21,7 +21,7 @@ route.get('/', async (req, res, next) => {
     res.render('index.ejs', {})
 })
 
-route.get('/orders/:id', async (req, res, next) => {
+route.get('/:id', async (req, res, next) => {
     try {
         let orderId = req.params.id;
         const orders = await BDserver.getOrderById(orderId);
@@ -34,8 +34,6 @@ route.get('/orders/:id', async (req, res, next) => {
         console.log(error)
     }
 })
-
-
 
 
 app.listen(PORT, () =>{console.log(`Server listening on http://localhost:${PORT}`)});

@@ -1,5 +1,5 @@
-# SQL SERVER NODE JS
-(Utilizando base de datos Northwind)
+# Consulta de datos SQL Server - Node JS
+Utilizando base de datos Northwind
 
 ## Ejecutar en consola: 
 Para inicializar el proyecto e instalar las dependencias, ejecutar:

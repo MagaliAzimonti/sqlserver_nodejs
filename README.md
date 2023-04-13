@@ -1,7 +1,10 @@
 # SQL SERVER NODE JS
+(Utilizando base de datos Northwind)
 
-## INSTALAR EN CONSOLA: 
-npm install para inicializar el proyecto
+## Ejecutar en consola: 
+Para inicializar el proyecto e instalar las dependencias, ejecutar:
+ - npm install 
 
-## EJECUTAR STORED PROCEDURE EN SQL SERVER
-proc_getById
+## Ejecutar Stored Procedures en SQL server
+- proc_getById
+- proc-getByProd
